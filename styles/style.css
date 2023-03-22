@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+    font-style: normal;
+}
+
+/* banner section */
+.banner {
+    background-image: url(../banner/banner1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    text-align: right;
+    padding: 220px 150px 150px 750px;
+    align-items: flex-end;
+    margin-bottom: 124px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    color: #444343;
+    margin-bottom: 32px;
+}
+
+.button-primary {
+
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 25px;
+    height: 64px;
+    background: #F15B22;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
+
+/* failure section */
+
+.failure {
+    display: flex;
+    align-items: center;
+    gap: 85px;
+    justify-content: center;
+    padding-bottom: 130px;
+}
+
+.failure-image {
+    align-items: center;
+    padding-left: 200px;
+}
+
+.failure-items {
+    padding-right: 220px;
+}
+
+.item-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.item-description {
+    color: #444343;
+    margin-top: 25px;
+    margin-bottom: 16px;
+    line-height: 26px;
+}
+
+ul li {
+    list-style-type: none;
+    color: #444343;
+    margin-bottom: 10px;
+    
+}
+
+ul li:before {
+    content: '✓';
+    color: #16D887;
+    margin-right: 10px;
+    font-weight: 700;
+}
+.list-items{
+    padding-left: 0;
+}
+
+/* success Section */
+
+
+/* plan section */
